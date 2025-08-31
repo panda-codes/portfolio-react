@@ -1,0 +1,3 @@
+npm i tailwindcss @tailwindcss/vite
+ npm i @radix-ui/react-toast class-variance-authority clsx
+ npm i lucide-react react-router-dom tailwind-merge

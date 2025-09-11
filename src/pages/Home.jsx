@@ -2,10 +2,18 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      {/* theme toggle */}
+    <div className='min-h-screen bg-background text-foreground overflow-x-hidden'>{/*min-h-screen:- this means mean hieght should be the screen height*/}
+      {/* THEME TOOGLE */}
+      
 
-      {/* background effect */}
+      {/* BACKGROUND */}
+
+      {/* NAVBAR */}
+
+      {/* MAIN CONTENT */}
+
+
+      {/* FOOTER */}
     </div>
   )
 }

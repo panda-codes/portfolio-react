@@ -1,0 +1,13 @@
+npm i tailwindcss @tailwindcss/vite(completely add the react at the vite.config.js file after installing this package)
+ npm i @radix-ui/react-toast class-variance-authority clsx
+ npm i lucide-react react-router-dom tailwind-merge
+
+
+create your custom tailwind styling in index.css file using @theme{}
+
+creating utility class to add styling to a class name
+
+@apply:- this is used to apply a tailwind base css style,you can also apply variables you have defined in the theme
+--card:- the -- is a variable in the css theme 
+
+after settin

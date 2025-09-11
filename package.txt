@@ -10,4 +10,4 @@ creating utility class to add styling to a class name
 @apply:- this is used to apply a tailwind base css style,you can also apply variables you have defined in the theme
 --card:- the -- is a variable in the css theme 
 
-after settin
+after setting up the styles on the index.css file, create the toogle function which is a component

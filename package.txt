@@ -11,3 +11,5 @@ creating utility class to add styling to a class name
 --card:- the -- is a variable in the css theme 
 
 after setting up the styles on the index.css file, create the toogle function which is a component
+now making the website know i prefer darkmode by using local storage in the themetoggle function
+use tailwind merge library to style the toogle button:- this is just so we can write lots of classes for styling and still be able to click and continue write the classes on a new line check-out themetoggle button

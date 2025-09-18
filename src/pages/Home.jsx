@@ -1,6 +1,7 @@
 import React from 'react'
 import ThemeToggle from '../components/ThemeToggle'
 import StarBackground from '../components/StarBackground'
+import NavBar from '../components/NavBar'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
       {/* BACKGROUND */}
       <StarBackground/>
       {/* NAVBAR */}
-
+      <NavBar/>
       {/* MAIN CONTENT */}
 
 

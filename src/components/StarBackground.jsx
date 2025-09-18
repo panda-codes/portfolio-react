@@ -13,6 +13,14 @@ const StarBackground = () => {
     useEffect(()=>{
         generateStars();
         generateMeteors();
+
+        const handleResize= () =>{
+            generateStars();
+        };
+
+        window.addEventListener("resize",handleResize);
+
+        return ()=> window.removeEventListener("resize",handleResize);
     }, []);//This is immediately calling the generate stars function once the component loads
 
     const generateStars=()=>{
